@@ -1,0 +1,110 @@
+%==============================================================================
+% Research techniques - non-period bound evaluation: research paper template
+%==============================================================================
+%
+% compilation in TeXstudio:
+%
+% - Change the following compilation options in TeXStudio via Options >
+%   Configure > Build
+%   - Default compiler: XeLaTeX (NOT pdflatex)
+%   - Default Bibliography Tool: Biber (NOT bibtex)
+% - F5 to compile and view the result
+% - If the bibliography is not included, try F5 - F8 - F5
+%   F8 will compile the bibliography separately
+%
+% Use JabRef for editing the bibliography and ensure that ``biblatex''-mode
+% is enabled: File > Switch to BibLaTeX mode.
+%
+% TODO: Rename the file with the name of your team, e.g. rt-npe-1920-pjm-05
+
+\documentclass{hogent-article}
+
+\usepackage{lipsum} % For filler text
+
+\selectlanguage{english}
+
+%------------------------------------------------------------------------------
+% Metadata on the article
+%------------------------------------------------------------------------------
+
+%---------- Title & authors ---------------------------------------------------
+
+% TODO: Change the title
+\PaperTitle{Determining factors for mathematics proficiency}
+% TODO: add team name
+\PaperType{NPE Research techniques 2019-2020, team }
+
+% TODO: add team member names and email addresses
+\Authors{Steven Stevens\textsuperscript{1}, Jan Janssens\textsuperscript{2}} % Authors
+
+% Leave empty (only relevant for Bachelor thesis proposals)
+\CoPromotor{}
+
+% Contact information of each author
+\affiliation{
+  \textsuperscript{1} \href{mailto:steven.stevens.u1234@student.hogent.be}{steven.stevens.u1234@student.hogent.be}}
+\affiliation{
+  \textsuperscript{2} \href{mailto:jan.janssens.u4321@student.hogent.be}{mailto:jan.janssens.u4321@student.hogent.be}
+}
+
+%---------- Abstract ----------------------------------------------------------
+
+\Abstract{If your paper is finished, write an abstract as a continuous text of one paragraph. Elements that should be included: \textbf{Context} (Why is this work important?); \textbf{Need} (Why does this have to be research); \textbf{Task} (What have you done precisely?); \textbf{Object} (Wat is written in this document?); \textbf{Result} (Wat were the results of your research?); \textbf{Conclusion} (What are the most important conclusions?); \textbf{Perspective} (Does the research give inspiration for future work?).}
+
+%---------- Keywords -----------------------------------------------------------
+% TODO: add keywords describing the research subject
+
+\Keywords{Keyword1; keyword2; keyword3}
+
+%---------- Titel, inhoud -----------------------------------------------------
+
+\begin{document}
+\selectlanguage{english}
+
+\flushbottom % Makes all text pages the same height
+\maketitle % Print the title and abstract box
+\tableofcontents % Print the contents section
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%------------------------------------------------------------------------------
+% Hoofdtekst
+%------------------------------------------------------------------------------
+
+\section{Introduction}
+
+\lipsum[1-3]
+
+\section{Literature review}
+
+% Refer to secondary sources with:
+% \autocite{BIBTEXKEY} -> (Author, year)
+% \textcite{BIBTEXKEY} -> Author (year)
+Example of a reference~\autocite{Moore2002}
+
+\lipsum[4-9]
+
+\section{Methodology}
+
+\lipsum[10-12]
+
+\section{Experiments}
+
+\lipsum[14-18]
+
+\section{Analysis results}
+
+\lipsum[18-21]
+
+\section{Conclusion}
+
+\lipsum[22-23]
+
+%------------------------------------------------------------------------------
+% Reference list
+%------------------------------------------------------------------------------
+% TODO: the cited sources should be stored in BibTeX file ``bibliography.bib''
+
+\phantomsection
+\printbibliography[heading=bibintoc]
+
+\end{document}
