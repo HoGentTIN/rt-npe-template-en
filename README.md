@@ -9,15 +9,15 @@
 | student3 | <https://github.com/student3> | <mailto:student3@student.hogent.be> |
 | student4 | <https://github.com/student4> | <mailto:student4@student.hogent.be> |
 
-Use this repository to keep all information, source code and results of your group assignment for the Research Techniques course. The file [checklist.md](checklist.md) contains an overview of the most important TODOs. bevat een overzicht van de belangrijkste TODOs.
+Use this repository to store all information, source code and results of your group assignment for the Research Techniques course. The file [checklist.md](checklist.md) contains an overview of the most important TODOs. 
 
-Use [Markdown](https://guides.github.com/features/mastering-markdown/) for reports, procedures, etc., that is, for all documents with formatted text that you would have used Word for. A LaTeX-template for the final paper and bibliographic database is also provided.
+Use [Markdown](https://guides.github.com/features/mastering-markdown/) when writing reports, procedures, etc., that is, for all documents with formatted text that you would otherwise have used Word for. A LaTeX-template for the final paper and bibliographic database is also provided.
 
-- Familiarize yourself with working with Git. Read the documentation on Github or peruse the slides of the [Git Workshop for the IT-lab](https://gitpitch.com/HoGentTIN/workshop-git-itlab#/) (slides in Dutch)
-    - If you haven't done this before, register your @student.hogent.be email address in your Github-account (you can add multiple addresses to a single account).
-    - It is essential to configure Git correctly on your laptop with your name and the email address associated with your Github account. Instructions are given below, including recommended global settings.
-- Each team member clones this repository on their laptop
-- Fill out the names and contact information of all team members in the table above
+- Familiarize yourself with Git. Read the documentation on GitHub or peruse the slides of the [Git Workshop for the IT-lab](https://gitpitch.com/HoGentTIN/workshop-git-itlab#/) (slides in Dutch)
+    - If you haven't done this already, add your @student.hogent.be email address to your Github-account (you can add multiple addresses to a single account).
+    - It is essential to configure Git correctly on your laptop, add your name and the email address associated with your Github account. Instructions are given below, including recommended global settings.
+- Each team member needs to clone this repository to their laptop
+- Add the names and contact information of all team members to the table above
 
 Execute the following commands on the terminal:
 
